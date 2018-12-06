@@ -37,6 +37,7 @@ function Movie({ poster, title, genres, synopsis }) {
       <div className="Movie_Columns">
         <h1>{title}</h1>
         <div className="Movie_Genres">
+          이지훈 조까
           {genres.map((genres, index) => (
             <MoviesGenre genre={genres} key={index} />
           ))}
